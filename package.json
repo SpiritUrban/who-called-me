@@ -1,0 +1,24 @@
+{
+  "name": "who-called-me",
+  "version": "1.0.0",
+  "description": "Information from the call stack of statement",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpiritUrban/who-called-me.git"
+  },
+  "keywords": [
+    "debug",
+    "log",
+    "debugger"
+  ],
+  "author": "Vitaliy Diachuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpiritUrban/who-called-me/issues"
+  },
+  "homepage": "https://github.com/SpiritUrban/who-called-me#readme"
+}
