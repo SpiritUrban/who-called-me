@@ -1,6 +1,6 @@
 {
   "name": "who-called-me",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Information from the call stack of statement",
   "main": "index.js",
   "scripts": {

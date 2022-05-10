@@ -13,8 +13,10 @@ $ npm install who-called-me
 
 ```js
 const whoCalledMe = require('who-called-me');
-whoCalledMe() // => 'C:\\dev\\project\\file.js'
-whoCalledMe('report') // => 'C:\\dev\\project\\file.js', more data in console/terminal
+whoCalledMe(2) // => 'Line: 15. at file///C/dev/test2/2.js'
+// whoCalledMe(2: Is a depth level, can be 3 or other )
+whoCalledMe(2, 'report') // => 'Line: 15. at file///C/dev/test2/2.js', more data in console/terminal
+// You can use 'report' for watching call stack and choose depth level you need
 ```
 
 
